@@ -1,0 +1,33 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    &__inner {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.input1 {
+    border-radius: 0 6px 6px 0;
+}
+
+.input2 {
+    border-radius: 6px 0 0 6px;
+}
+
+.select1 > .ant-select-selector {
+    border-radius: 6px 0 0 6px !important;
+    border-right: none !important;
+}
+
+.select2 > .ant-select-selector {
+    border-radius: 0 6px 6px 0 !important;
+    border-left: none !important;
+}
+
+// .ant-select-single .ant-select-selector {
+//     border-radius: 6px 0 0 6px !important;
+//     &:last-child {
+//         border-radius: 6px;
+//     }
+// }
